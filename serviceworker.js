@@ -18,11 +18,11 @@ self.addEventListener('install',event=>{
     const cacheStatic= caches.open(CACHE_STATIC_NAME)
         .then(cache=>{
             return cache.addAll([
-                '/',
-                'index.html',
-                'css/style.css',
-                'js/script.js',
-                'img/no-image.png'
+                '/CodigoManifesto/',
+                '/CodigoManifesto/index.html',
+                '/CodigoManifesto/css/style.css',
+                '/CodigoManifesto/js/script.js',
+                '/CodigoManifesto/img/no-image.png'
                 /*Agregar imagenes*/
             ])
         })
